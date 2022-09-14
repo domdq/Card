@@ -1,0 +1,33 @@
+/* reset */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+/* estilização geral*/
+body {
+  background: #1e1e1e;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card-bg {
+  background: #30364d;
+  position: absolute;
+  border-radius: 11px;
+}
+.card {
+  padding: 22px;
+  display: flex;
+}
+.avatar {
+  position: relative;
+  margin-right: 22px;
+}
+.fone {
+  top: 0;
+  right: -5px;
+  position: absolute;
+}
