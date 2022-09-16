@@ -6,7 +6,7 @@
 }
 /* estilização geral*/
 body {
-  background: #1e1e1e;
+  background: #1c2033;
   font-family: "Ubuntu", sans-serif;
   display: flex;
   align-items: center;
@@ -21,6 +21,7 @@ body {
 .card {
   padding: 22px;
   display: flex;
+  align-items: center;
 }
 .avatar {
   position: relative;
@@ -30,4 +31,34 @@ body {
   top: 0;
   right: -5px;
   position: absolute;
+}
+h1 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 18px;
+  color: #cad0e5;
+}
+h2 {
+  margin-top: 4px;
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 15px;
+  color: #73788d;
+}
+.text {
+  color: #73788d;
+  text-align: justify;
+  font-size: 13px;
+  font-weight: 400px;
+  line-height: 15px;
+  padding: 0px 20px;
+  margin-top: -10px;
+}
+
+.like {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  color: #73788d;
+  padding: 22px;
 }
